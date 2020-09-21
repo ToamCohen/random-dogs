@@ -1,0 +1,32 @@
+#container{
+	display: block;
+	text-align: center;
+	
+	
+	
+}
+.img{
+	display: block;
+	 width: 333px;
+	 height: 500px;
+	 margin-left:29% ;
+	 margin-top: 2em;
+	 
+	 
+	 
+}
+
+#input{
+ width:60%;
+ height: 2em;
+ margin-top: 3px;
+}
+
+
+button{
+	width: 30%;
+	height: 2.5em;
+	
+
+	
+}
