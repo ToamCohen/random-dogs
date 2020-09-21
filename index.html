@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<input type="text" id="input">
+	<button id="button">Click For Random Dog</button>
+	<div id="container"></div>
+
+	<script id="template-dogs-random" type="text/x-handlebars-template">
+		
+		<div>
+			{{#each random }}
+		<img class="img" src={{this}} alt="hello">
+			{{/each}}
+		</div>
+		
+	
+
+	</script>
+
+	<script src="./node_modules/jquery/dist/jquery.js"></script>
+	<script src="./node_modules/handlebars/dist/handlebars.js"></script>
+	<script src="Renderer.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
